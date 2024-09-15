@@ -1,0 +1,313 @@
+ls
+cd repogit/
+ls
+repo_Fernandez/
+git status
+ls
+cd repo_Fernandez/
+ls
+git status
+git commit -m "Mi primer commit"
+git config --global user.name "ulifz"
+git commit -m "Mi primer commit"
+exit
+ls
+cd ..
+ls
+cd vagrant/
+clear
+ls
+cd repogit/
+ls
+cd ..
+whoami
+pwd
+echo puto
+echo $HOME
+echo $MENU
+echo echo
+echo $MANUAL
+echo $manual
+echo clear
+man echo
+man man
+man ls
+clear
+ls
+cd repogit/
+ls
+cd UTN-FRA_SO_onBording/
+ls
+cd..
+cd ..
+clear
+git clone https://github.com/ulifz/repo_Fernandez.git
+ls
+cd repo_Fernandez/
+ls
+history
+echo 8=========D
+echo xD
+clear
+history > historial.txt
+ls
+cat historial.txt 
+clear
+ls
+git status
+git add .
+git status
+git commit -m "Mi primer commit"
+git config -- global user.email "fernandez.ulises019@gmail.com"
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh/
+ls
+ls -la
+ls
+ls -la
+clear
+ls -l
+car id_ed25519.pub 
+cat id_ed25519.pub 
+cd ..
+ls
+pwd
+ls -l
+cd repogit/
+ls -l
+rm -r repo_Fernandez/
+clear
+sudo rm -r repo_Fernandez/
+ls
+pwd
+git clone git@github.com:ulifz/repo_Fernandez.git
+ls
+clear
+ls -l
+cd repo_Fernandez/
+clear
+echo putito
+echo history
+clear
+echo "hola" > hola.txt
+ls
+git status
+git add .
+git status
+git commit -m "Mi primer commit"
+git status
+git push
+cat /etc/passwd
+head /etc/passwd
+clar
+clear
+head /etc/passwd
+head -n2 /etc/passwd
+tail -n3 /etc/passwd
+clear
+grep bash /etc/passwd
+grep -n bash /etc/passwd
+echo sopenco
+clear
+grep bash /etc/passwd > test.txt
+ls
+cat test.txt 
+rm -r test.txt 
+ls
+clear
+grep bash -n /etc/passwd > text.txt
+ls
+cat text.txt 
+clear
+sort text.txt 
+cat text.txt 
+man sort
+clear
+cat << FINAL > archivo2.txt
+linea 1
+linea 2
+linea 3
+FINAL
+
+ls
+cat archivo2.txt 
+bc <<< 5+2
+bc <<< 5*5*5
+man bc
+ls
+cat hola.txt 
+clear
+echo "saludos"
+echo saludos
+echo saludos >> hola.txt 
+cat hola.txt 
+cat hola.txt archivo2.txt >> archivo1.txt
+cat archivo1.txt 
+clear
+cpuinfo
+clear
+ls /bin
+ls /proc
+cat /proc/cpuinfo 
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep model | head -n2
+cat /proc/cpuinfo | grep name | head -n1
+echo papapa
+clear
+echo 8======D
+lslslsls
+clear
+clera
+clear
+exit
+pwd
+ls
+cd repogit/
+pwd
+ls
+cd ..
+ls
+pwd
+ssh-keygen -t ed25516
+ssh-keygen -t ed25519
+grep -v nologin /etc/passwd | head -n10 | sort -k7
+grep -v nologin /etc/passwd | head -n10 | cat -A
+clear
+grep -v nologin /etc/passwd | head -n10 | sort -k7,7
+grep -v nologin /etc/passwd | head -n10 | cat -A | sort -k7
+head -n10 /etc/passwd
+head -n10 /etc/passwd | grep -v nologin
+grep -v nologin /etc/passwd | head -n10 | sort -k7
+grep -v nologin /etc/passwd | head -n10 | sort -k7 > /home/vagrant/repogit/TP_AySO/lista_ordenada.txt
+pwd
+cd repogit/
+cd TP_AySO/
+ls 
+cat lista_ordenada.txt 
+clear
+git status
+git add .
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+clear
+man dump
+dump
+clear
+man tcpdump
+man tcpdump 
+tcpdump 
+echo hola
+echo tcpdump > comando_dump_net
+cat comando_dump_net 
+ls
+ls -la
+cat README.md 
+man tcpdump 
+ls
+git status
+rm lista_ordenada.txt 
+git status
+clear
+man sort
+grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada
+ls
+cat lista_ordenada 
+git status
+rm comando_dump_net 
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+clear
+apropos "dump traffic"
+apropos 'dump traffic'
+apropos "tcpdump"
+apropos dump
+apropos tcpdump 
+man apropos
+apropos
+apropos "dump traffic"
+man sort
+apropos sorted
+apropos sort
+apropos dump
+apropos traffic
+apropos capture
+sudo mandb
+apropos dump
+apropos "dump traffic"
+clear
+apropos "dump traffic" > comando_dump_net
+cat comando_dump_net 
+echo apropos "dump traffic" >> comando_dump_net 
+cat comando_dump_net 
+git status
+git add .
+git status
+git commit -m "ADD: Comando para capturar y analizar el tráfico de red."
+ls -l
+cat lista_ordenada 
+echo $history
+echo $(history)
+clear
+echo $(HOME)
+cd ..
+ls
+cd TP_AySO/
+ls
+cat README.md 
+cat<<FIN >> README.md 
+Alumno: Ulises Martin Fernandez
+División: 311
+Turno: Noche
+FIN
+
+cat README.md 
+git status
+git add .
+git status
+git commit -m "docs: actualizacion en el README.md"
+cat $(history)
+cat history
+echo history
+echo $history
+echo $(history)
+clear
+man history
+cd /home/
+ls -la
+cd /home/vagrant/repogit/TP_AySO/
+ls -la
+cd .
+ls -la
+cd ./
+ls -la
+cd ./.git/
+ls -la
+cd ..
+cd TP_AySO/./
+ls -la$HOME
+clear
+ls -la $HOME
+cd /home/
+ls -la
+echo $HOME
+cd vagrant/
+ls -la
+cd .
+cd ./
+echo ./.bash_history 
+cat ./.bash_history 
+clear
+cd /home/vagrant/repogit/TP_AySO/
+clear
+history -a $HOME/.bash_history
+man history
+apropos -a 
+apropos "-a"
+apropos history
+man cp
+history -a >> $HOME/.bash_history
